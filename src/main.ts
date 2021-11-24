@@ -12,7 +12,6 @@ class LabelMaker {
 	customFont: PDFFont | undefined;
 	constructor(settings: LabelMakerSettings) {
 		this.settings = settings;
-		this.init();
 	}
 
 	private init = async () => {
